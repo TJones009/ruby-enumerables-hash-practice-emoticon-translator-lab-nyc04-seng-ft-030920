@@ -20,7 +20,7 @@ def get_japanese_emoticon(file_path, emoticon)
   emoticon_hash = load_library(file_path)
   result = emoticon_hash["get_emoticon"][emoticon]
     if result == nil
-     result = "Emoticon not found"
+     result = "Emoticon not found :'"
     end
   result
 end
